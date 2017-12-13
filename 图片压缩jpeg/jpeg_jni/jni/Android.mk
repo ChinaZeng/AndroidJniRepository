@@ -1,4 +1,5 @@
 LOCAL_PATH := $(call my-dir)
+# https://developer.android.com/ndk/guides/prebuilts.html?hl=zh-cn#rp
 include $(CLEAR_VARS)
 LOCAL_MODULE    :=libjpeg
 LOCAL_SRC_FILES :=libjpeg.so
